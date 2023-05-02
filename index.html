@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/favicon.jpg"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EntregaFinalPolito</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<style>
+    #scroll{
+        border:1px solid;
+        height:100px;
+        width:300px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    </style>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+<body class="fondonegro">
+  
+<div class="row">
+    
+      <h1 class="titulo col-lg-2 col-md-12 col-sm-12 animate__animated animate__bounceInDown"> <p>PRESUPUESTADOR IMPRESIONES 3D</p> </h1>  
+           
+</div>  
+
+<img class="fotomain" src="./images/fotomain.jpg" class="col-md-4 float-md-end mb-3 ms-md-3" alt="">
+<form id="formularioPrincipal"  class="parrafos">           
+    
+    <input  id="razonSocial" placeholder="Razón Social Cliente" type="text" onkeyup="mayusculas(this)" required >
+    <p></p>
+    
+    <input  id="pesoStl" placeholder="Peso Archivo STL GRS. " type="number" required>
+    <p></p>
+    
+    <input  id="tiempoImpresionhoras" placeholder="Tiempo Impresión HS. " type="number" required>
+    <p></p>
+    
+    <input  id="tiempoImpresionminutos" placeholder="Tiempo Impresión MIN. " type="number" required>
+    <p></p>
+    
+    <input  id="pesoBobina" placeholder="Peso Bobina GRS. " type="number" required>
+    <p></p>
+    
+    <input  id="precioBobina" placeholder="Precio Bobina"  type="number" required>
+    <p></p>
+    
+    <input  id="consumoKVimpresora" placeholder="Cons. KV/H Impresora" type="number" required >
+    <p></p>
+    
+    <input  id="precioKVcompania" placeholder="Precio KV Cía. Eléctrica" type="number" required>
+    <p></p>
+    
+    <input  id="porcentajeGanancia" placeholder="% Ganancia a Obtener" type="number" required>
+    <p></p>
+    
+    <input class="botonPresupuesto" type="submit" value="PRESUPUESTAR">
+    
+    
+</form> 
+
+<div id="botonRecuperar">
+<input class="botonPresupuesto" type="submit" value="RECUPERAR DATOS">
+</div>
+    <table id="presup" class="table caption-top table-color" col-lg-2 col-md-12 col-sm-12>
+        
+    </table>
+    
+
+
+
+<footer >
+    
+    <div class="logofooterespon">
+        <a class="iconosfooter" href="./documentos.html"><img src="./images/logodocumentacion.png" alt="Luciano Polito 2023"> </a>
+        <p class="textosfooter ">DOCS</p>
+    </div>
+
+  
+  <div class="iconosredesrespon"  >
+      
+      <a class="iconosfooter" href="https://www.instagram.com/lucianodixilan/"><img src="./images/iconoinsta.png" alt="instagram Luciano Polito"></a> 
+      <a class="iconosfooter" href= "mailto:lucianopolitounq@yahoo.com.ar"> <img src="./images/iconomail.png" alt="mail Luciano Polito"></a>
+      <a class="iconosfooter" href="https://walink.co/b2f602"> <img src="./images/iconowpfooter.png" alt="wassap Luciano Polito"> </a>
+      <p class="textosfooter">CONTACTO</p>
+  </div>
+  
+  <div class="logofooterespon">
+    <a class="iconosfooter" href="./Tienda.html"> <img src="./images/logothingiverse.png" alt="Tienda"> </a> 
+    <p class="textosfooter">TIENDA DE INSUMOS</p>
+    
+</div>
+
+  
+  
+
+
+  
+</footer>
+<script src="index.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>
+

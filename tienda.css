@@ -1,0 +1,179 @@
+.fondonegro {
+    background-color: black;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: italic;
+    width: 100%;
+    }
+
+.btnvaciar{
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:18px;
+	border:2px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:medium;
+	font-weight:bold;
+	padding:6px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btnvaciar:hover{
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 7px 10px rgba(195, 194, 194, 0.726);
+    padding: 5px;
+    border-radius:10px;
+}
+.cardCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(57, 5, 228, 0.2);
+    padding: 5px;
+    border-radius: 1rem;
+    width: 450px;
+    border-radius:10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#productosflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(21, 0, 255, 0.2);
+    padding: 5px;
+    border-radius: 1rem;
+    width: 450px;
+}
+.toast{
+    background: #0c04fc;
+}
+
+
+
+/* FOOTER --------------------------------------------------------------------------------------------*/
+
+
+              /* footer >>>> posisionamiento y bordes  */
+              footer {
+                min-height: 100px;
+                border-top: 1px solid rgba(50, 50, 50, 0.3);
+                width: 100%;
+                position: relative;
+                clear: both;
+                margin-top: 10%;
+                padding-top: 0px;
+                overflow:-moz-hidden-unscrollable;
+                overflow-x: hidden;
+                bottom: 0%;
+                border-top: 1px solid rgb(180, 180, 174);
+              }
+
+              /* footer >>>> iconos incial escala de grises  */
+              .iconosfooter {
+                filter: grayscale(1);
+                }
+              .logofooterespon{
+              margin-top: 2%;
+               }
+               
+                        /* footer >>>> iconos hover quita escala de grises da color  */
+                        .iconosfooter:hover {
+                          color: none;
+                          background: none;
+                          filter: brightness(100%);
+                          transition: all 1s ease 0s;
+                        }
+
+              /* footer >>>> textos  */
+              .textosfooter {
+                font-style: normal;
+                font-size:medium;
+                font-weight: lighter;
+                text-align: center;
+                color: white;
+              }
+
+              /* MEDIA QUERYS--------------------------------------------------------------------------------------------*/
+
+
+              /* mediaquerys >>>> pantalla grande */
+           
+                  .iconosredesrespon{
+                    text-align: left;
+                    margin-top: 2%;
+                    }
+                  .logofooterespon{
+                    text-align: center;
+                  }
+              
+                  footer{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr  1fr;
+                    justify-items:center;
+                    }
+                  
+                    
+                  }
+    
+                  /* mediaquerys >>>> pantalla acostada */
+                  @media (min-width: 700px) and (orientation: landscape){
+                    body{
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    }  
+               
+                  }
+    
+                  /* mediaquerys 990px  */
+                  
+                  @media (max-width: 990px){
+             
+                  .titulo {
+                  font-size: 230%;
+                  text-align: center;
+                  margin-top: 15%;
+                  font-weight: bold;
+                  width: 100%;
+                  }
+
+
+
+/* parrafos  */
+.parrafos{
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: italic;
+    width: 100%;
+   
+  }
+  
