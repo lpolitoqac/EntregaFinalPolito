@@ -1,0 +1,305 @@
+/* reseteo */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* scrollbar no visible */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* home >>>> boton presupuesto */
+
+.botonPresupuesto {
+  box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:larger;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+.botonVaciarpresup {
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:18px;
+	border:2px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:medium;
+	font-weight:bold;
+	padding:6px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+
+
+/* home >>>> boton presupeusto hover */
+.botonPresupuesto:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+.botonVaciarpresup:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+
+
+
+.botonPresupuesto:active {
+	position:relative;
+	top:1px;
+}
+
+.botonVaciarpresup:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+/* FOOTER --------------------------------------------------------------------------------------------*/
+
+
+              /* footer >>>> posisionamiento y bordes  */
+              footer {
+                min-height: 100px;
+                border-top: 1px solid rgba(50, 50, 50, 0.3);
+                width: 100%;
+                position: relative;
+                clear: both;
+                margin-top: 10%;
+                padding-top: 0px;
+                overflow:-moz-hidden-unscrollable;
+                overflow-x: hidden;
+                bottom: 0%;
+                border-top: 1px solid rgb(180, 180, 174);
+              }
+
+              /* footer >>>> iconos incial escala de grises  */
+              .iconosfooter {
+                filter: grayscale(1);
+                }
+              .logofooterespon{
+              margin-top: 2%;
+               }
+               
+                        /* footer >>>> iconos hover quita escala de grises da color  */
+                        .iconosfooter:hover {
+                          color: none;
+                          background: none;
+                          filter: brightness(100%);
+                          transition: all 1s ease 0s;
+                        }
+
+              /* footer >>>> textos  */
+              .textosfooter {
+                font-style: normal;
+                font-size:medium;
+                font-weight: lighter;
+                text-align: center;
+                color: white;
+              }
+
+
+
+
+/* TEXTOS --------------------------------------------------------------------------------------------*/
+
+
+              /* Titulo principal  */
+              .titulo {
+                font-size: 300%;
+                color: white;
+                text-align: center;
+                margin-top: 10%;
+                font-weight: bold;
+                width: 100%;
+              }
+
+              /* parrafos  */
+              .parrafos{
+                font-size: 150%;
+                color: white;
+                text-align: center;
+                margin-top: 5%;
+                font-weight: italic;
+                width: 100%;
+               
+              }
+
+              .textosdoc{
+                font-size: 100%;
+                color: white;
+                text-align:justify;
+                
+                font-weight: italic;
+                width: 100%;
+               
+              }
+
+
+
+
+
+
+
+              
+              .table-color {
+                color: white;
+                font-family: "Roboto Condensed", sans-serif;
+                font-weight: bold;
+                font-size: 150%;
+                text-align: left;
+                min-height: 100px;
+                
+                width: 100%;
+                position: relative;
+                clear: both;
+                margin-top: 10%;
+                
+                margin-left: 25%;
+                
+              
+              
+              
+              }
+              
+
+
+
+
+              /* centrado y fondo negro de las paginas */
+            .fondonegro {
+              background-color: black;
+              text-align: center;
+              }
+
+
+/* MEDIA QUERYS--------------------------------------------------------------------------------------------*/
+
+
+              /* mediaquerys >>>> pantalla grande */
+              @media screen and (min-width: 1075px) {
+              body{
+                  margin-left: 10%;
+                  margin-right: 10%;
+                }
+                .iconosredesrespon{
+                  text-align: left;
+                  margin-top: 2%;
+                  }
+                .logofooterespon{
+                  text-align: center;
+                }
+            
+                footer{
+                  display: grid;
+                  grid-template-columns: 1fr 1fr  1fr;
+                  justify-items:center;
+                  }
+                
+                  
+                }
+  
+                /* mediaquerys >>>> pantalla acostada */
+                @media (min-width: 700px) and (orientation: landscape){
+                  body{
+                  margin-left: 10%;
+                  margin-right: 10%;
+                  }  
+             
+                }
+  
+                /* mediaquerys 990px  */
+                
+                @media (max-width: 990px){
+           
+                .titulo {
+                font-size: 230%;
+                text-align: center;
+                margin-top: 15%;
+                font-weight: bold;
+                width: 100%;
+                }
+
+
+
+                
+
+
+ 
+
+
+
+                
+
+
+
+
+          
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
